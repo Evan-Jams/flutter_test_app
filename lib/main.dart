@@ -26,7 +26,7 @@ class PlantScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Affirmation Plant'),
       ),
-      body: Center(
+      body: const Center(
         child: PlantWidget(),
       ),
     );
